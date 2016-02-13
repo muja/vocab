@@ -1,0 +1,97 @@
+#!/usr/bin/env ruby
+
+require 'pathname'
+require 'csv'
+require 'json'
+require 'hashie'
+
+Dir.chdir Pathname.new(__FILE__).parent
+Dir.mkdir "out" unless Dir.exist? "out"
+
+KANJI_KANA = /\p{Hiragana}|\p{Katakana}|\p{Han}/
+FILE_TEMPLATE = Pathname.new(Dir.pwd).parent.join("kanjivg", "kanji", "0%s.svg").to_s
+
+class Compound < Struct.new(:kanji, :kana, :meaning, :file)
+  def to_s
+    [file, [kanji, kana, meaning].join(" | ")].join " - "
+  end
+end
+
+def vectorize(kanji)
+  kanji.chars.map do |char|
+    if char =~ KANJI_KANA
+      file = FILE_TEMPLATE % char.ord.to_s(16)
+      "<img src=\"#{file}\">"
+    else
+      char
+    end
+  end.join
+end
+
+def warn(message, filename = nil)
+  info = " (@#{filename})" if filename
+  $stderr.puts "Warning#{info}: #{message}"
+end
+
+def parse(content, filename = nil)
+  content.strip.lines.reject do |line|
+    # REMOVE COMMENTS
+    line =~ /^\s*#/
+  end.join.split(/\n\n+/).map do |trio|
+    # Make trios
+    trio.lines.map(&:strip)
+  end.each do |kanji, kana, meaning|
+    # Validate!
+    if index = kanji =~ /[a-zA-Z]/
+      warn("'kanji' field has latin letters at #{index}: #{kanji}", filename)
+    end
+    if index = kana =~ /[a-zA-Z]/
+      warn("'kana' field has latin letters at #{index}: #{kana}", filename)
+    end
+    if index = kana =~ /\p{Han}/
+      warn("'kana' field has Kanji at #{index}: #{kana}", filename)
+    end
+    if index = meaning =~ KANJI_KANA
+      warn("'meaning' field has Kanji/Kana letters at #{index}: #{meaning}", filename)
+    end
+  end
+end
+
+by_file = {}
+puts "Parsing..."
+all = Dir["in/**/*"].map do |file|
+  next [] unless File.exists? file
+  content = File.read(file)
+  by_file[file] = parse(content, file).map do |kanji, kana, meaning|
+    Compound.new(kanji, kana, meaning, file)
+  end
+end.flatten
+
+puts "Checking for duplicates..."
+all.each_with_index do |e, i|
+  next if e.meaning.nil?
+  after = all[(i+1)..-1]
+
+  dup = after.detect { |x| e.meaning == x.meaning && e != x }
+  warn("Duplicate meaning: #{e} || #{dup}") if dup
+
+  dup = after.detect { |x| e.kana == x.kana && e != x }
+  warn("Duplicate kana: #{e} || #{dup}") if dup
+  
+  dup = after.detect { |x| e.kanji == x.kanji && e != x }
+  warn("Duplicate kanji: #{e} || #{dup}") if dup
+end
+
+puts "Writing..."
+by_file.merge("all" => all).each do |infile, vocabs|
+  # File.write("out/#{infile}.json", JSON.pretty_generate(vocabs))
+  csv = CSV.generate(col_sep: ";") do |csv|
+    vocabs.each do |vocab|
+      kanjis = vocab.kanji.split(/,|;/).map(&:strip)
+      csv << [vocab.meaning, kanjis.join("; "), vocab.kana, vectorize(kanjis.join("<br>"))]
+    end
+  end
+  out = File.basename(infile, File.extname(infile))
+  File.write("out/#{out}.csv", csv)
+end
+

@@ -1,0 +1,26 @@
+#!/usr/bin/env ruby
+
+VOCAL = "\u3099"
+UMLAUT = "\u0308"
+
+ARGV.each do |file|
+  puts file
+  f = File.read(file)
+  # VOCALS in Kana
+  after = f.split(VOCAL)[0...-1].each do |x|
+    x[-1] = x[-1].next
+  end.join + f.split(VOCAL).last
+
+  # UMLAUT in German text
+  after = after.split(UMLAUT)[0...-1].each do |x|
+    x[-1] = case x[-1]
+    when "a" then "ä"
+    when "A" then "Ä"
+    when "u" then "ü"
+    when "U" then "Ü"
+    when "o" then "ö"
+    when "O" then "Ö"
+    end
+  end.join + after.split(UMLAUT).last
+  File.write(file, after)
+end

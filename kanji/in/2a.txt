@@ -1,0 +1,25 @@
+川;Fluss
+大;groß
+工;Handwerker
+小;klein
+水;Wasser
+古;alt
+自;selbst
+気;Luft
+有;da sein
+町;Stadt
+近;nah
+空;leer
+物;Gegenstand
+美;schön
+海;Meer
+酒;Alkohol
+動;sich bewegen
+転;ins Rollen bringen
+強;stark
+術;Fertigkeit, Kunst
+場;Platz
+新;neu
+静;ruhig
+劇;Schauspiel
+館;Gebäude

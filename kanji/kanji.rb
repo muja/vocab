@@ -10,6 +10,14 @@ Dir.mkdir "out" unless Dir.exist? "out"
 
 FILE_TEMPLATE = Pathname.new(Dir.pwd).parent.join("kanjivg", "kanji", "0%s.svg").to_s
 
+def extract(node)
+  kanji = char.css("literal").text
+  on = char.css("reading[r_type=ja_on]").map(&:text).join(" ")
+  kun = char.css("reading[r_type=ja_kun]").map(&:text).join(" ")
+  meaning = char.css("meaning:not([m_lang])").map(&:text).join(", ")
+  Hashie::Mash.new(kanji: kanji, on: on, kun: kun, meaning: meaning)
+end
+
 characters = if File.exists? "out/kanjidata.json"
   Hashie::Mash.new(JSON.parse(File.read("out/kanjidata.json")))
 else
@@ -23,16 +31,7 @@ else
   Nokogiri::XML(xml).css('character').inject({}) do |h, char|
     print "\r"
     print i += 1
-    kanji = char.css("literal").text
-    on = char.css("reading[r_type=ja_on]").map(&:text).join(" ")
-    kun = char.css("reading[r_type=ja_kun]").map(&:text).join(" ")
-    meaning = char.css("meaning:not([m_lang])").map(&:text).join(", ")
-    h.merge kanji => Hashie::Mash.new(
-      kanji: kanji,
-      on: on,
-      kun: kun,
-      meaning: meaning
-    )
+    h.merge kanji => extract(char)
   end.tap do |characters|
     puts
     license = open("http://www.edrdg.org/edrdg/licence.html").read

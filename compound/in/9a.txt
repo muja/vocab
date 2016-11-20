@@ -1,0 +1,209 @@
+父母
+フボ
+Vater und Mutter
+
+父親
+ちちおや
+Vater
+
+神父
+シンプ
+Priester
+
+付近
+フキン
+Nähe, Gegend
+
+受付
+うけつけ
+Empfang, Rezeption
+
+左右
+サユウ
+rechte und linke Seite
+
+右手
+みぎて
+rechte Hand
+
+年号
+ネンゴウ
+Bezeichnung einer Ära
+
+三号室
+サンゴウシツ
+Zimmer Nr. 3
+
+国交
+コッコウ
+diplomatische Beziehung
+
+外交
+ガイコウ
+Außenpolitik, Diplomatie
+
+名刺を交わす。
+メイシをかわす。
+Man tauscht Visitenkarten aus.
+
+好物
+コウブツ
+Lieblingsessen
+
+友好的
+ユウコウテキ
+freundlich (Beziehung)
+
+私は日本が好きだ。
+わたしはニホンがすきだ。
+Ich mag Japan.
+
+事故
+ジコ
+Unfall
+
+信号
+シンゴウ
+Ampel, Signal
+
+電信
+デンシン
+Telegraf
+
+信用
+シンヨウ
+Vertrauen
+
+私はあの人の言うことを信じる。
+わたしはあのひとのいうことをしんじる。
+Ich glaube ihm.
+
+原点
+ゲンテン
+(ursprünglicher) Startpunkt
+
+点字
+テンジ
+Blindenschrift
+
+交通事故
+コウツウジコ
+Verkehrsunfall
+
+右側通行
+みぎがわツウコウ
+Rechtsverkehr
+
+通学
+ツウガク
+Pendel zur Schule
+
+夜通し
+よどおし
+die ganze Nacht durch
+
+公園を通る
+コウエンをとおる
+Ich passiere (gehe durch) den Park.
+
+半年前から大学に通っている。
+ハンネンまえからダイガクにかよっている。
+Ich besuche seit einem halben Jahr die Universität.
+
+交差点
+コウサテン
+Kreuzung
+
+時差
+ジサ
+Zeitunterschied
+
+差出人
+さしだしニン
+Absender
+
+物差し
+ものさし
+Lineal
+
+小遣い
+こづかい
+Taschengeld
+
+派遣
+ハケン
+Entsendung (Arbeiter, Botschafter, Delegation, Armee)
+
+# VERBEN etc.
+
+付ける
+つける
+anheften, befestigen
+
+付く
+つく
+haften, kleben
+
+交える
+まじえる
+mischen; kreuzen (schriftspr.)
+
+交わす
+かわす
+austauschen
+
+交ざる; 混ざる
+まざる
+vermischt werden
+
+交じる; 混じる
+まじる
+sich vermischen
+
+交わる
+まじわる
+mit jemandem verkehren
+
+交ぜる; 混ぜる
+まぜる
+vermischen (tr.)
+
+好む
+このむ
+bevorzugen; mögen
+
+好く
+すく
+mögen, lieben
+
+点
+テン
+Punkt
+
+通る
+とおる
+durchgehen / -fahren
+
+通す
+とおす
+durchlassen
+
+通う
+かよう
+pendeln (Schule etc.)
+
+使う; 遣う
+つかう
+benutzen, gebrauchen, verwenden
+
+遣す
+つかわす
+entsenden
+
+気を付けて下さい。
+キをつけてください。
+Passen Sie bitte auf!
+
+気を遣わないで下さい。
+キをつかわないでください。
+Machen Sie sich bitte keine Umstände!

@@ -1,0 +1,61 @@
+紅茶
+コウチャ
+schwarzer Tee
+
+口紅
+くちべに
+Lippenstift
+
+紅葉
+コウヨウ
+Herbstfärbung
+
+紅白
+コウハク
+Rot und Weiß
+
+畏敬
+イケイ
+Ehrfurcht
+
+一致
+イッチ
+Übereinstimmung
+
+お待たせ致しました。
+おまたせいたしました。
+Ich habe Sie warten lassen.
+
+投票
+トウヒョウ
+Stimmenabgabe
+
+伝票
+デンピョウ
+Rechnung
+
+勘定
+カンジョウ
+Bezahlung, Begleichung
+
+あの人は勘がいい。
+あのひとはカンがいい。
+Er/Sie ist schnell von Begriff / hat Fantasie.
+
+あの人は勘が悪い。
+あのひとはカンがわるい。
+Er/Sie ist schwer von Begriff / hat keine Fantasie.
+
+# VERBEN etc.
+
+紅
+べに
+rote Schminke
+
+畏まる
+かしこまる
+sich ehrfürchtig verhalten
+
+致す
+いたす
+erreichen lassen, tun (Bescheidenheitsausdruck)

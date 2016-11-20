@@ -3,7 +3,6 @@
 require 'pathname'
 require 'csv'
 require 'json'
-require 'hashie'
 
 Dir.chdir Pathname.new(__FILE__).parent
 Dir.mkdir "out" unless Dir.exist? "out"

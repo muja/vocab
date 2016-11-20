@@ -20,7 +20,7 @@ Man vergleicht A und B.
 
 市場 (1)
 シジョウ
-Markt
+Markt (abstrakt), Absatzmarkt
 
 少子化
 ショウシカ
@@ -32,7 +32,7 @@ Stadtzentrum
 
 市場 (2)
 いちば
-Wochenmarkt
+Markt, Wochenmarkt, Marktplatz
 
 目上
 めうえ
@@ -168,7 +168,7 @@ Abrechnung
 
 頂上
 チョウジョウ
-Gipfel
+Gipfel (1)
 
 経済
 ケイザイ
@@ -206,7 +206,7 @@ Planwagen
 カンドウ
 berührt, begeistert sein
 
-関心
+感心
 カンシン
 bewundern
 
@@ -251,7 +251,7 @@ Betriebsunternehmer
 Sonntagskleid
 
 遅番
-おそばん
+おそバン
 Spätschicht
 
 植木
@@ -273,3 +273,133 @@ berührend
 摩擦
 マサツ
 Reibung
+
+# VERBEN etc.
+
+化ける
+ばける
+sich verwandeln
+
+化す
+ばかす
+irreführen
+
+心
+こころ
+Herz
+
+比べる
+くらべる
+vergleichen
+
+市 (1)
+シ
+Stadt (als öffentliche Verwaltungseinheit)
+
+市 (2)
+いち
+Markt, Marktplatz, Markttag, Messe
+
+考える
+かんがえる
+denken, erwägen
+
+床 (1)
+とこ
+Bett (allgemein)
+
+床 (2)
+ゆか
+Fußboden
+
+決める
+きめる
+festlegen
+
+決まる
+きまる
+festgesetzt werden
+
+周り
+まわり
+Umkreis, Umgebung
+
+実
+み
+Wahrheit, Frucht
+
+実る
+みのる
+Früchte tragen
+
+治める
+おさめる
+regieren, befrieden
+
+治まる
+おさまる
+in Frieden sein
+
+治す
+なおす
+heilen
+
+治る
+なおる
+geheilt werden
+
+的
+もと
+Ziel, Zielscheibe, Zweck
+
+政
+まつりごと
+Verwaltung, Regierung, Politik (schriftspr.)
+
+梅
+うめ
+Pflaume(nbaum)
+
+浴びる
+あびる
+sich übergießen mit ...
+
+済む
+すむ
+beendet werden
+
+済ます
+すます
+erledigen
+
+頂
+いただき
+Gipfel (2)
+
+頂く
+いただく
+bekommen
+
+経る; 歴る
+へる
+vergehen
+
+晴れる
+はれる
+sich aufklären
+
+遅れる
+おくれる
+sich verspäten
+
+遅い
+おそい
+spät
+
+植える
+うえる
+pflanzen
+
+幌
+ほろ
+Wagen(plane)

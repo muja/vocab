@@ -193,7 +193,7 @@ Schneefall
 亜寒帯
 アカンタイ
 Subpolarzone
- 
+
 寒村
 カンソン
 abgelegenes Dorf
@@ -221,7 +221,7 @@ Abkürzung (Weg)
 温帯
 オンタイ
 gemäßigte Zone
-  
+
 気温
 キオン
 Lufttemperatur
@@ -281,14 +281,14 @@ Komori (Familiename)
 歩道
 ホドウ
 Bürgersteig
- 
+
 温水
 オンスイ
 warmes Wasser
- 
+
 温度
 オンド
- Temperatur
+Temperatur
 
 農地
 ノウチ
@@ -304,7 +304,7 @@ tropischer Regenwälder
 
 高熱
 コウネツ
-hohes Fiber
+hohes Fieber
 
 熱中
 ネッチュウ

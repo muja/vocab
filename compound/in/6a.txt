@@ -110,9 +110,9 @@ der blaue Himmel
 トカイ
 Großstadt
 
-漢字仮名交じり文
+漢字仮名混じり文
 カンジかなまじりブン
-Mischtext mit chin. und jap.　Schriftzeichen
+Mischtext mit chin. und jap. Schriftzeichen
 
 小鳥
 ことり
@@ -170,7 +170,7 @@ Kimono
 あらし
 Sturm, Unwetter
 
-通説
+痛切
 ツウセツ
 scharf (Kritik)
 
@@ -193,3 +193,25 @@ japanische Bananenstaude, Haiku-Dichter MATSUO, Bashô
 写真を撮る
 シャシンをとる
 Foto machen
+
+# VERBEN etc.
+
+阪
+さか
+Abhang
+
+都
+みやこ
+Hauptstadt, Regierungssitz, Stadt
+
+痛い
+いたい
+schmerzhaft
+
+獣
+けもの
+Tier, Bestie
+
+戯れる
+たわむれる
+spielen, scherzen

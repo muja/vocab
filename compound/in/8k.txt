@@ -1,6 +1,6 @@
 入江
 いりえ
-Bucht
+Bucht, Meeresbucht, Golf
 
 同一
 ドウイツ
@@ -75,5 +75,35 @@ langfristig
 Sonnenbrand
 
 夕焼け
-ゆうやけ
-Abendrot
+ユウやけ
+Abendbrot
+
+# VERBEN etc.
+
+江
+え
+großer Fluss, Bucht
+
+同じ
+おなじ
+gleich, identisch
+
+囲む
+かこむ
+einschließen, umschließen
+
+泊まる
+とまる (1)
+übernachten
+
+泊める
+とめる (1)
+unterbringen
+
+岳
+たけ
+hoher (felsiger) Berg
+
+焼く
+やく
+brennen

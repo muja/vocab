@@ -147,7 +147,7 @@ Enzyklopädie
 Vokabel
 
 待機
-タイ
+タイキ
 in Bereitschaft sein
 
 保安
@@ -197,7 +197,7 @@ japanisch-deutsches Wörterbuch
 漢字
 カンジ
 chinesische Schriftzeichen
- 
+
 漢和字典
 カンワジテン
 chinesisches Zeichenlexikon für Japanisch
@@ -255,9 +255,9 @@ Zeuge
 zollfrei
 
 英和辞典
-えいわじてん
+エイワジテン
 Englisch-Japanisches W.
- 
+
 願書
 ガンショ
 Bewerbungsunterlangen

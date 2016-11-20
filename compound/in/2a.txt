@@ -182,3 +182,29 @@ Veranstaltungsort
 新人
 シンジン
 neuer Mann, neues Mitglied, Nachwuchs
+
+# SINGLE KANJI
+# 
+# 川
+# かわ
+# Fluss
+# 
+# 大きい
+# おおきい
+# groß
+# 
+# 小さい
+# ちいさい
+# klein
+# 
+# 水
+# みず
+# Wasser
+# 
+# 物
+# もの
+# Ding
+# 
+# 美しい
+# うつくしい
+# wunderschön

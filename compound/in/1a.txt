@@ -181,3 +181,6 @@ Silber
 課長
 カチョウ
 Abteilungsleiter
+
+# SINGLE KANJI
+

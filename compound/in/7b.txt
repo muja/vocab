@@ -1,163 +1,189 @@
-# 
-# もジ
-# Schriftzeichen
-# 
-# 
-# ベイコク
-# USA
-# 
-# 
-# カンジ
-# chin. Schriftzeichen
-# 
-# 
-# ナンベイ
-# Südamerika
-# 
-# 
-# もちごめ
-# Klebreis
-# 
-# 
-# サクヒン
-# Werk (Kunst, Literatur)
-# 
-# 
-# こめづくり
-# Reisanbau
-# 
-# 
-# でむかえ
-# Abholen, Empfang
-# 
-# 
-# センゾ
-# Vorfahren
-# 
-# 
-# シュクフク
-# Segen
-# 
-# 
-# ゾクづれ
-# mit der Familie
-# 
-# 
-# ジョ
-# イ Ausschließen
-# 
-# 
-# シンマイ
-# Neuer Reis; Neuling
-# 
-# 
-# サギョウ
-# Arbeit
-# 
-# 
-# ベイサク
-# Reisanbau
-# 
-# 
-# ソウゲイ
-# Begrüßung und Verabschiedung
-# 
-# 
-# ボンチ
-# Becken, Mulde
-# 
-# 
-# ソセン
-# Vorfahren
-# 
-# 
-# ソフボ
-# Großeltern
-# 
-# 
-# シュクジツ
-# Feiertage
-# 
-# 
-# コクレン
-# UNO
-# 
-# 
-# レンタイ
-# Solidarität 帯
-# 
-# 
-# ソウジ
-# Putzen, Aufräumen
-# 
-# 
-# ジョヤ
-# Silbesternacht
-# 
-# 
-# ホウサク
-# reiche Ernte
-# 
-# 
-# ゆたかなトチ
-# fruchtbarer Boden
-# 
-# 
-# ントウ
-# Kantô-Gebiet
-# 
-# 
-# やまとだましい
-# japanischer Geist 大和
-# 
-# 
-# セイボ
-# Jahresende, Geschenk zum Jahresschluss
-# 
-# 
-# ひがくれる
-# Die Sonne geht unter. Die Nacht bricht an.
-# 
-# 
-# すみきる
-# ganz klar werden
-# 
-# 
-# リョウシン
-# Eltern
-# 
-# 
-# ホウフ
-# reichlich
-# 
-# 
-# カンゼイ
-# Zoll
-# 
-# 
-# ひとりぐらし
-# allein leben
-# 
-# 
-# すみわたる
-# ganz klar werden
-# 
-# 
-# ははおや
-# Mutter
-# 
-# 
-# シンミツ
-# intim
-# 
-# 
-# シンセツ
-# Hilfsbereit
-# 
-# 
-# したしいユウジン
-# vertrauter Freund
-# 
-# 
-# ジョヤのかね
-# Silvesterglocke
+文字
+もジ
+Schriftzeichen
+
+米国
+ベイコク
+USA
+
+南米
+ナンベイ
+Südamerika
+
+作品
+サクヒン
+Werk (Kunst, Literatur)
+
+米作り
+こめづくり
+Reisanbau
+
+出迎え
+でむかえ
+Abholen, Empfang
+
+先祖
+センゾ
+Vorfahren (1)
+
+祝福
+シュクフク
+Segen
+
+家族連れ
+カゾクづれ
+mit der Familie
+
+除外
+ジョガイ
+Ausschließen
+
+新米
+シンマイ
+Neuer Reis; Neuling
+
+作業
+サギョウ
+Arbeit, Auftrag
+
+米作
+ベイサク
+Reisernte
+
+送迎
+ソウゲイ
+Begrüßung und Verabschiedung
+
+盆地
+ボンチ
+Becken, Mulde
+
+祖先
+ソセン
+Vorfahren (2)
+
+祖父母
+ソフボ
+Großeltern
+
+祝日
+シュクジツ
+Feiertage
+
+国連
+コクレン
+UNO
+
+連帯
+レンタイ
+Solidarität
+
+掃除
+ソウジ
+Putzen, Aufräumen
+
+除夜
+ジョヤ
+Silvesternacht
+
+豊作
+ホウサク
+reiche Ernte
+
+豊かな土地
+ゆたかなトチ
+fruchtbarer Boden
+
+関東
+カントウ
+Kantô-Gebiet
+
+大和魂
+やまとだましい
+japanischer Geist
+
+歳暮
+セイボ
+Jahresende, Geschenk zum Jahresschluss
+
+日が暮れる
+ひがくれる
+Die Sonne geht unter. Die Nacht bricht an.
+
+澄み切る
+すみきる
+ganz klar werden (1)
+
+両親
+リョウシン (2)
+Eltern
+
+豊富
+ホウフ
+reichlich
+
+関税
+カンゼイ
+Zoll
+
+一人暮らし
+ひとりぐらし
+allein leben
+
+澄み渡る
+すみわたる
+ganz klar werden (2)
+
+母親
+ははおや
+Mutter
+
+親密
+シンミツ
+intim
+
+親切
+シンセツ
+hilfsbereit
+
+親しい友人
+したしいユウジン
+vertrauter Freund
+
+除夜の鐘
+ジョヤのかね
+Silvesterglocke
+
+# VERBEN etc.
+
+迎える
+むかえる
+empfangen
+
+祝う
+いわう
+feiern, beglückwünschen
+
+連なる
+つらなる
+in einer Reihe stehen
+
+連ねる
+つらねる
+aneinander reihen
+
+連れる
+つれる
+begleiten, mitnehmen (lebendig)
+
+除く
+のぞく
+beseitigen
+
+豊か
+ゆたか
+reich, üppig
+
+親しむ
+したしむ
+sich vertraut machen

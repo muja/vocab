@@ -60,7 +60,7 @@ ernten
 
 持参
 ジサン
-mitnehmen
+mitnehmen (unlebendig, schriftspr.)
 
 側面
 ソクメン
@@ -185,3 +185,37 @@ der letzte Moment
 祭壇
 サイダン
 Altar
+
+# VERBEN etc.
+
+丘
+おか
+Hügel
+
+池
+いけ
+Teich
+
+投げる
+なげる
+werfen
+
+幹
+みき
+Baumstamm, Hauptteil
+
+# 明るい
+# あかるい
+# hell
+# 
+# 取る
+# とる
+# nehmen
+# 
+# 持つ
+# もつ
+# haben, tragen
+#
+# 橋
+# はし
+# Brücke

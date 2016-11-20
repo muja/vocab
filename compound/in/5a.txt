@@ -115,7 +115,7 @@ Sanduhr
 Stadium, Phase
 
 茶店
-チャミセ
+チャみせ
 Teehaus
 
 午後
@@ -140,7 +140,7 @@ der rangniedrigste Platz
 
 座席指定券
 ザセキシテイケン
-Platzreservierungskarte
+Sitzplatzreservierungskarte
 
 空席
 クウセキ
@@ -182,7 +182,7 @@ Familie, Familienmitglied
 イチゾク
 die ganze Familie, Verwandtschaft
 
-就業時間
+終業時間
 シュウギョウジカン
 Schlusszeit (Firma, Schule)
 

@@ -257,3 +257,73 @@ Sturkopf
 頭文字
 かしらもジ
 Anfangsbuchstabe
+
+# VERBEN etc.
+
+布
+ぬの
+Tuch
+
+穴
+あな
+Loch
+
+似る
+にる
+ähneln
+
+別れる
+わかれる
+sich trennen
+
+重なる
+かさなる
+übereinander liegen
+
+重ねる
+かさねる
+übereinander legen, stapeln
+
+重い
+おもい
+schwer
+
+室
+むろ
+Keller, Trockenraum
+
+倉; 庫
+くら
+Speicher, Lagerhaus
+
+開ける; 明ける; 空ける
+あける
+öffnen
+
+開く; 明く; 空く
+あく
+sich öffnen
+
+開く
+ひらく
+aufschlagen (Buch)
+
+開ける
+ひらける
+sich entwickeln
+
+頭 (1)
+あたま
+Kopf, Intelligenz, Kopfzahl
+
+頭 (2)
+かしら
+Kopf, Haupt, Erstes
+
+鮮やか
+あざやか
+frisch (Farbe), kräftig
+
+鎌
+かま
+Sichel, Sense

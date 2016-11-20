@@ -43,7 +43,7 @@ Ausgehen
 Altertum
 
 回転寿司
-カイテンずし
+カイテンズシ
 Sushi auf dem Fließband
 
 毎日
@@ -54,7 +54,7 @@ jeder Tag
 キュウジツ
 ein freier Tag
 
-中洲
+中州
 なかす
 Sandbank (im Fluß)
 
@@ -152,7 +152,7 @@ Abendessen
 
 昼食
 チュウショク
-Mittagsessen
+Mittagsessen (schriftspr.)
 
 出発
 シュッパツ
@@ -321,3 +321,7 @@ Lesebuch
 音読み
 オンよみ
 sino-japanische Lesung
+
+昼御飯
+ひるゴハン
+Mittagsessen

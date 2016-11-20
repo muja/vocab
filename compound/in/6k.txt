@@ -55,7 +55,7 @@ Anblick, Szene
 Artikel 9
 
 良心
-リョウシン
+リョウシン (1)
 gutes Gewissen
 
 昔話
@@ -87,8 +87,7 @@ altes Schloss, alte Burg
 シンワ
 Mythologie
 
-
-神戸
+阪神
 ハンシン
 Ôsaka und Kôbe
 
@@ -164,3 +163,22 @@ Sitzmeditation, Yoga
 観客
 カンキャク
 Zuschauer, Publikum (insbes. Kino, Theater etc.)
+
+# VERBEN etc.
+
+仏
+ほとけ
+Erleuchteter, Buddha
+
+光
+ひかり
+Licht
+
+良い
+よい
+gut
+
+送る
+おくる
+schicken, senden
+

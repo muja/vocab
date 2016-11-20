@@ -181,3 +181,33 @@ Anfang, Ursprung
 織物
 おりもの
 Textilien
+
+# VERBEN etc.
+
+正しい
+ただしい
+richtig, korrekt
+
+伝える
+つたえる
+überliefern, übermitteln
+
+豆
+まめ
+Bohne
+
+招く
+まねく
+einladen, herbeirufen
+
+参る
+まいる
+besuchen (Tempel, Schrein), kommen
+
+供える
+そなえる
+opfern
+
+飼う
+かう (2)
+halten (Tiere), züchten

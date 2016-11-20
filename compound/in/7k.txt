@@ -44,7 +44,7 @@ Gemahlin
 
 支払い
 シはらい
-Bezahlung
+Zahlung, Bezahlung
 
 西方
 セイホウ
@@ -104,7 +104,7 @@ Frühschicht
 
 運転
 ウンテン
-fahren,steuern
+fahren, steuern
 
 不運
 フウン
@@ -133,3 +133,31 @@ Polizeiwache
 運動会
 ウンドウカイ
 Sportfest
+
+# VERBEN etc.
+
+払う
+はらう
+bezahlen
+
+改まる
+あらたまる
+erneuert werden
+
+改める
+あらためる
+erneuern
+
+替える; 代える
+かえる (1)
+wechseln, auswechseln
+
+替わる
+かわる (1)
+sich ändern, wechseln
+
+運ぶ
+はこぶ
+befördern, transportieren
+
+

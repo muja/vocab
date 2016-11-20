@@ -40,7 +40,10 @@ def parse(content, filename = nil)
   end.join.split(/\n\n+/).map do |trio|
     # Make trios
     trio.lines.map(&:strip)
-  end.each do |kanji, kana, meaning|
+  end.each do |kanji, kana, meaning, *more|
+    if more.length > 0
+      warn("More fields found at '#{meaning}'", filename)
+    end
     # Validate!
     if index = kanji =~ /[a-zA-Z]/
       warn("'kanji' field has latin letters at #{index}: #{kanji}", filename)
@@ -88,7 +91,8 @@ by_file.merge("all" => all).each do |infile, vocabs|
   csv = CSV.generate(col_sep: ";") do |csv|
     vocabs.each do |vocab|
       kanjis = vocab.kanji.split(/,|;/).map(&:strip)
-      csv << [vocab.meaning, kanjis.join("; "), vocab.kana, vectorize(kanjis.join("<br>"))]
+      base = File.basename(vocab.file, File.extname(vocab.file))
+      csv << [kanjis.join("; "), vocab.kana, vocab.meaning, base, vectorize(kanjis.join("<br>"))]
     end
   end
   out = File.basename(infile, File.extname(infile))
